@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+body {
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif ;
+        background-color: rgb(236, 236, 236);
+    
+    /*font: normal 16px 'Roboto', sans-serif ;*/
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color:rgb(110, 126, 110);
+}
+/* a:visited {
+    color: red;
+    text-decoration: line-through;
+} */
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px black
+}
+ .info p {
+     color: #86898f;
+     margin: 0;
+     font-style: italic;
+     text-decoration: none;
+     /*text-transform:uppercase;*/
+     /*letter-spacing: 2px;*/
+     word-spacing: 3px;
+     margin-bottom: 20px;
+ }
+ .info {
+     display: flex;
+     margin-bottom: 20px;
+ }
+ @media (max-width: 700px){ 
+     .info 
+    { text-align: center;  display: block;
+    
+    } 
+ }
+ .infotext {
+     margin-left: 20px;
+ }
+ .infotext h4 {
+     margin-bottom: 10px;
+ }
+ .link {
+     margin-bottom: 20px;
+ }
+ /*box-model*/
+ .container {
+     max-width: 750px;
+     margin: auto;
+     padding-top: 30px;
+ }
+ .bg-yellow{
+     background-color: #fff9dc;
+ }
+ .bg-green{
+    background-color: #e5ffe7;
+}
+.bg-red{
+    background-color: #ffe5e5;
+}
+ .card {
+     padding: 15px 25px;
+     margin-bottom: 15px;
+     border-radius: 20px;
+ }
+ .card h2 {
+     margin-bottom: 15px;
+ }
+ .list {
+     padding:0 20px;
+    list-style: square;
+ }
+ .list li {
+     color: #86898f;
+     margin-bottom: 15px;
+     border-bottom: dashed;
+ }
+ .table {
+     width: 100%;
+ }
+
+ .table td{
+     padding-bottom: 15px;
+ }
+ .table td:nth-child(2),
+ .table td:nth-child(3) {
+     color: #86898f;
+ }
+ .gameprofiles {
+     list-style: none;
+     padding: 0;
+ }
+ .gameprofiles li {
+     margin-bottom: 10px;
+     padding-bottom: 5px;
+     border-bottom: 1px #ccc;
+ }
+ .contact h2 {
+     text-align:center;
+
+ }
+ .formgroup label {
+    display: block;
+    font-size: 15px;
+    color: black
+ }
+ .formgroup input,
+ .formgroup textarea {
+     width: 100%;
+     box-sizing: border-box;
+     border: none;
+     /* background: transparent; */
+     border-bottom: 1px solid #ccc ;
+     color: black;
+     outline: none;
+     padding:15px 0 10px;
+     font-family: inherit;
+ }
+ .row {
+     display: flex;
+     margin-bottom: 20px;
+ }
+ .row > .formgroup {
+     width: 50%;
+     margin-right: 20px;
+ }
+ .row > .formgroup:last-child {
+     margin-right: 0px;
+ }
+ .button {
+    /* background: #111;  */
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+ }
+ .button:hover {
+     color: #ccc;
+ }
+ /* position*/
+
+ /* .position{
+     position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+ }
+
+.box{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: maroon;
+    position: absolute;
+    left: 695px;
+    bottom: 150px;
+} */
+
+
+ /* .social{
+    background: rgb(116, 155, 37);
+    padding: 5px; */
+    /*padding: 5px 50px;*/
+    /*padding: 5px 30px 10px 40px;*/
+    /* margin: 20px;
+    
+    border: 10px solid green;
+    border-bottom-style: dashed;
+    border-top-style: dashed;
+    border-left-style: double;
+    border-right-style:double;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 5px;
+    border-bottom-width: 5px; */
+ /* } */
+ /*.boxmodel >div {
+     float: left;
+     background: black;
+     height: 100;
+     width: 50%;
+     border: 4px dashed gray;
+     box-sizing: border-box;
+ }*/
