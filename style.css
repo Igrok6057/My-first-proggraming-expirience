@@ -117,10 +117,12 @@ a:hover {
  .formgroup label {
     display: block;
     font-size: 15px;
-    color: black
+    color: black;
+    margin: 1em 0 1em;
  }
  .formgroup input,
  .formgroup textarea {
+    display: block;
      width: 100%;
      box-sizing: border-box;
      border: none;
@@ -128,11 +130,11 @@ a:hover {
      border-bottom: 1px solid #ccc ;
      color: black;
      outline: none;
-     padding:15px 0 10px;
+     padding:15px 10px;
      font-family: inherit;
  }
  .row {
-     display: flex;
+     display: grid;
      margin-bottom: 20px;
  }
  .row > .formgroup {
